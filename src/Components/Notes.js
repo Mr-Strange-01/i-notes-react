@@ -9,6 +9,7 @@ export default function Notes() {
 
     useEffect(() => {
         getNotes();
+        // eslint-disable-next-line
     }, []);
     
   return (
